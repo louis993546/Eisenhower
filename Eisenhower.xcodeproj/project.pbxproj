@@ -11,6 +11,8 @@
 		A1638BA42568908300052921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1638BA32568908300052921 /* ContentView.swift */; };
 		A1638BA62568908400052921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1638BA52568908400052921 /* Assets.xcassets */; };
 		A1638BA92568908400052921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1638BA82568908400052921 /* Preview Assets.xcassets */; };
+		A1E3FFE4256A7B3900AC0679 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3FFE3256A7B3900AC0679 /* TaskView.swift */; };
+		A1E3FFE7256A7B4500AC0679 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3FFE6256A7B4500AC0679 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		A1638BA82568908400052921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1638BAA2568908400052921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1638BAB2568908400052921 /* Eisenhower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eisenhower.entitlements; sourceTree = "<group>"; };
+		A1E3FFE3256A7B3900AC0679 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		A1E3FFE6256A7B4500AC0679 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +59,12 @@
 			children = (
 				A1638BA12568908300052921 /* EisenhowerApp.swift */,
 				A1638BA32568908300052921 /* ContentView.swift */,
+				A1E3FFE3256A7B3900AC0679 /* TaskView.swift */,
 				A1638BA52568908400052921 /* Assets.xcassets */,
 				A1638BAA2568908400052921 /* Info.plist */,
 				A1638BAB2568908400052921 /* Eisenhower.entitlements */,
 				A1638BA72568908400052921 /* Preview Content */,
+				A1E3FFE6256A7B4500AC0679 /* Task.swift */,
 			);
 			path = Eisenhower;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E3FFE7256A7B4500AC0679 /* Task.swift in Sources */,
+				A1E3FFE4256A7B3900AC0679 /* TaskView.swift in Sources */,
 				A1638BA42568908300052921 /* ContentView.swift in Sources */,
 				A1638BA22568908300052921 /* EisenhowerApp.swift in Sources */,
 			);
